@@ -1,11 +1,11 @@
 {
   "name": "tradingagents-frontend",
   "version": "1.0.0-preview",
-  "description": "TradingAgents-CN 现代化前端界面",
+  "description": "TradingAgents-CN \u73b0\u4ee3\u5316\u524d\u7aef\u754c\u9762",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc && vite build",
+    "dev": "node init && vite",
+    "build": "node init && vue-tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
